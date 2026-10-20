@@ -1,0 +1,8 @@
+GET:
+curl https://jsonplaceholder.typicode.com/posts/1
+
+GET with query parameter:
+curl "https://jsonplaceholder.typicode.com/posts?userId=1"
+
+POST (Windows CMD):
+curl -X POST https://jsonplaceholder.typicode.com/posts -H "Content-Type: application/json" -d "{\"title\":\"API Practice\",\"body\":\"Hello from curl\",\"userId\":1}"
